@@ -1,4 +1,10 @@
 /* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
 .app-container {
   position: relative;
 }
@@ -9,8 +15,31 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('C:\Users\Lenovo\Desktop\react app\new_app\src\background\1600w-B4C1SMjYrjM.webp');
+  background-image: url('path/to/your/background-image.jpg');
   background-size: cover;
   opacity: 0.7; /* Adjust the opacity as needed */
   z-index: -1; /* Place the background behind other elements */
 }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payment-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add more styles as needed for your specific components */
